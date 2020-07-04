@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 25px;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    transition: .5s ease all;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: #666;
+}
+
+nav ul li a .fa-th{
+    font-size: 15px !important;
+    color: #666;
+    margin: 0 10px 0 0;
+}
+
+nav ul li a .fa-th:hover{
+    color: #222;
+}
+
+nav ul li:nth-child(4){
+    background: #111;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 0 -10px 0;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(4) .user-account{
+    width: 30px;
+    height: 30px;
+    
+}
+
+/* search area =========================== */
+.search-area{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-area img{
+    height: 85px;
+}
+
+
+.form-group{
+    position: relative;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.search-box #search-input{
+    height: 41px;
+    width: 100%;
+    color: #555;
+    font-size: 16px;
+    padding: 10px 55px 10px 40px;
+    border: 1px solid rgba(204, 204, 204, 0.541);
+    border-radius: 30px;
+    outline: none;
+
+}
+
+
+.search-box #search-input:hover{
+    box-shadow: 0 0 0.5em rgba(204, 204, 204, 0.473);
+}
+
+
+
+.form-group .fa-search{
+    position: absolute;
+    top: 14px;
+    left: 0;
+    padding: 0 15px;
+    color: #aaa;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+.form-group .fa-microphone{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    padding: 0 15px;
+    color: #aaa;
+    color: #66ccff;
+    cursor: pointer;
+
+}
+
+.form-group:hover .fa-microphone{
+    color: black;
+    border-left: 1px solid #ccc;
+    
+}
+
+.inline-inputs{
+    text-align: center;
+}
+
+.inline-inputs input{
+    border: none;
+    border: 1px solid #f2f2f2;
+    outline: none;
+    background: #f2f2f2;
+    padding: 10px 15px;
+    margin: 5px;
+    color: #555;
+    border-radius: 3px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.inline-inputs input:hover{
+    border: 1px solid #aaa;
+   
+}
+
+.details{
+    margin: 20px 0;
+}
+
+.details p{
+    font-size: 13px;
+}
+
+.details p a{
+    text-decoration: none;
+    color: royalblue;
+    margin: 0 3px;
+}
+
+.details p a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #f2f2f2;
+    
+}
+
+footer .top-footer{
+    border-bottom: 1px solid rgba(204, 204, 204, 0.555);
+    padding: 10px 24px;
+    color: #aaa;
+}
+
+footer .bottom-footer{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 24px;
+}
+
+.bottom-footer .left-list ul li{
+    display: inline-block;
+}
+
+
+.bottom-footer .left-list ul li a{
+    padding-right: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(139, 135, 135);
+    
+}
+
+.bottom-footer .left-list ul li a:hover{
+    text-decoration: underline; 
+}
+
+.bottom-footer .right-list ul li{
+    display: inline-block;
+}
+
+
+.bottom-footer .right-list ul li a{
+    padding-right: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(139, 135, 135);
+}
