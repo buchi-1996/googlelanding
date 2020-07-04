@@ -223,4 +223,9 @@ footer .bottom-footer{
     .search-box .form-group{
         width: 45vh;
     }
+
+    .search-box .form-group:focus{
+        width: 45vh;
+    }
+
 }
