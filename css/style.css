@@ -217,3 +217,9 @@ footer .bottom-footer{
     text-decoration: none;
     color: rgb(139, 135, 135);
 }
+
+@media screen and (max-width: 768px){
+    .search-box .form-group{
+        width: 45vh;
+    }
+}
