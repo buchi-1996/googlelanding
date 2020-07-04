@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 body{
     position: relative;
     height: 100vh;
+    font-family: Roboto, sans-serif;
 }
 
 header nav{
@@ -177,17 +180,21 @@ footer{
 }
 
 footer .top-footer{
-    border-bottom: 1px solid rgba(204, 204, 204, 0.555);
+    border-bottom: 1px solid rgb(204, 204, 204);
     padding: 10px 24px;
-    color: #aaa;
+}
+
+footer .top-footer p{
+    font-size: 13px;
+    color: #888;
 }
 
 footer .bottom-footer{
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin: 0 24px;
+    
 }
 
 .bottom-footer .left-list ul li{
@@ -200,7 +207,8 @@ footer .bottom-footer{
     font-size: 15px;
     text-decoration: none;
     color: rgb(139, 135, 135);
-    
+    font-size: 13px;
+    color: #666;
 }
 
 .bottom-footer .left-list ul li a:hover{
@@ -217,6 +225,12 @@ footer .bottom-footer{
     font-size: 15px;
     text-decoration: none;
     color: rgb(139, 135, 135);
+    font-size: 13px;
+    color: #666;
+}
+
+.bottom-footer .right-list ul li a:hover{
+    text-decoration: underline; 
 }
 
 @media screen and (max-width: 768px){
@@ -229,4 +243,16 @@ footer .bottom-footer{
         margin-bottom: 20px;
     }
 
+    footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #f2f2f2; 
+    text-align: center;
+    }
+
+    footer .bottom-footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
