@@ -99,6 +99,9 @@ nav ul li:nth-child(4) .user-account{
     box-shadow: 0 0 0.5em rgba(204, 204, 204, 0.473);
 }
 
+.search-box .form-group:focus{
+    width: 45vh;
+}
 
 
 .form-group .fa-search{
@@ -151,11 +154,12 @@ nav ul li:nth-child(4) .user-account{
 }
 
 .details{
-    margin: 20px 0;
+    margin: 20px;
 }
 
 .details p{
     font-size: 13px;
+    text-align: center;
 }
 
 .details p a{
@@ -224,8 +228,6 @@ footer .bottom-footer{
         width: 45vh;
     }
 
-    .search-box .form-group:focus{
-        width: 45vh;
-    }
+    
 
 }
